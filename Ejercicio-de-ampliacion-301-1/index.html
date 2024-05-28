@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+     *{box-sizing: border-box;}
+  body{display:flex; justify-content: center}
+  #contenedor{display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90vw}
+  .elemento{text-align: center;}
+  img{width:22vw; height:22vw; border-radius: 50%; margin:2vw; objec-fit: cover;}
+  audio{width: 22vw;}
+  @media screen and (max-width:600px) {
+    #reticula{grid-template-columns: 1fr;}
+    img{width:60vw; height:60vw;}
+    audio{width:60vw
+  }</style>
+</head>
+
+<body>
+
+<div id="contenedor">
+  
+  <div class="elemento">
+     <img src="505.webp" onclick="playsound1()">
+     <audio src="505.mp3" id="audio1" controls loop></audio>
+  </div>
+  <div class="elemento">
+    <img src="daddy issues.webp" onclick="playsound1()">
+     <audio src="daddy issues.mp3" id="audio2" controls loop></audio>
+  </div>
+
+  <div class="elemento">
+     <img src="hard gz.webp" onclick="playsound3()">
+     <audio src="hard gz.mp3" id="audio3" controls loop></audio>
+  </div>
+
+  <div class="elemento">
+     <img src="milo j.webp" onclick="playsound4()">
+     <audio src="milo j.mp3" id="audio4" controls loop></audio>
+  </div>
+
+  <div class="elemento">
+     <img src="nirvana.webp" onclick="playsound5()">
+     <audio src="nirvana.mp3" id="audio5" controls loop></audio>
+  </div>
+
+  <div class="elemento">
+     <img src="rusowsky.webp" onclick="playsound6()">
+     <audio src=rusowsky.mp3" id="audio6" controls loop></audio>
+  </div>
+  
+</div>
+  
+
+  
+  <script>
+     function playsoun1() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+     function playsoun2() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+     function playsoun3() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+     function playsoun4() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+
+     function playsoun5() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+
+               function playsoun1() {
+       let audio = document.getElementById("audio1");
+       if (audio.paused) audio.play();
+       else audio.pause();
+
+  </script>
+
+  
+
+  
+</body>
+
+</html>

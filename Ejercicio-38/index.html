@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+    <img id="foto-piedras">
+    <h1>
+     <a>¡Hola! ¡Mira estas fotos de paisajes bonitos!</a>
+    </h1>
+     <script>
+       let a = ["foto-piedras.jpg","paisaje-forestal.jpg","arbol-solitario.jpg","puente-madera.jpg","mar-atardecer.jpg"]
+
+
+       let r = Math.floor(Math.random() * a.length)
+       document.getElementById("foto-piedras").src = a[r];
+     </script>
+  </body>
+</html>
